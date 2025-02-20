@@ -1,0 +1,75 @@
+body {
+  background-color: #121212;
+}
+
+.recuperar img {
+  width: 80px;
+}
+
+.recuperar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: large;
+}
+
+.form_recuperar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 300px;
+  height: auto;
+}
+
+.input__email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: larger;
+  font-weight: 700;
+  color: #fff;
+}
+
+#email {
+  width: 300px;
+  height: 50px;
+  margin: 10px 0 10px 0;
+  padding-left: 10px;
+  border-radius: 6px;
+  color: #fff;
+  border-color: transparent;
+  background-color: #121212;
+  box-shadow: inset 0 0 0 1px #b3b3b3;
+}
+
+.input__enviar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  font-weight: 700;
+  color: #fff;
+}
+
+.enviar {
+  width: 250px;
+  height: 40px;
+  margin: 10px 0 10px 0;
+  border-radius: 50px;
+  border-color: transparent;
+  color: #000;
+  background-color: #1ed760;
+  font-size: large;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.enviar:hover {
+  background-color: rgba(29, 185, 84, 0.8);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recuperar sua senha</title>
+
+    <link rel="icon" href="./src/Assets/favicon.png" />
+    <link rel="stylesheet" href="./css/recuperar.css" />
+  </head>
+  <body>
+    <div class="recuperar">
+      <div class="form_recuperar">
+        <img src="./src/Assets/favicon.png" />
+        <h1>Redefina sua senha</h1>
+        <p>
+          Insira o endereço de e-mail ou nome de usuário vinculado à sua conta
+          do Spotify pra te enviarmos um e-mail.
+        </p>
+
+        <form action="#" id="recuperarForm">
+          <div class="input__email">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Digite seu e-mail"
+              required
+            />
+          </div>
+          <div class="input__enviar">
+            <button type="submit" class="enviar">Enviar link</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./JavaScript/recuperar.js"></script>
+  </body>
+</html>

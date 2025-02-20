@@ -1,0 +1,149 @@
+body {
+  background: linear-gradient(to bottom, #363636 20%, #000 80%);
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+}
+.logo_login img {
+  width: 80px;
+}
+
+.logo_login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.form_login {
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: auto;
+  padding: 50px;
+  border-radius: 8px;
+}
+
+.input__email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: larger;
+  font-weight: 700;
+  color: #fff;
+}
+
+#email {
+  width: 400px;
+  height: 30px;
+  margin: 10px 0 10px 0;
+  padding-left: 10px;
+  color: #fff;
+  border-radius: 6px;
+  border-color: transparent;
+  background-color: #121212;
+  box-shadow: inset 0 0 0 1px #b3b3b3;
+}
+
+.input__senha {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: larger;
+  font-weight: 700;
+  color: #fff;
+}
+
+#senha {
+  width: 400px;
+  height: 30px;
+  margin: 10px 0 10px 0;
+  padding-left: 10px;
+  border-radius: 6px;
+  color: #fff;
+  border-color: transparent;
+  background-color: #121212;
+  box-shadow: inset 0 0 0 1px #b3b3b3;
+}
+
+.remember_me {
+  font-size: large;
+  font-weight: 700;
+  color: #fff;
+}
+
+#remember_me {
+  width: 20px;
+  height: auto;
+  cursor: pointer;
+}
+
+.input__entrar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: larger;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.entrar {
+  width: 250px;
+  height: 40px;
+  margin: 10px 0 10px 0;
+  border-radius: 50px;
+  border-color: transparent;
+  color: #000;
+  background-color: #1ed760;
+  font-size: large;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.entrar:hover {
+  background-color: rgba(29, 185, 84, 0.8);
+}
+
+.forgot_password {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: larger;
+  margin-top: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.forgot_password:hover {
+  color: #45a049;
+}
+
+hr {
+  margin: 20px;
+  border-color: #b3b3b3;
+}
+
+.signup {
+  font-size: large;
+  font-weight: 600;
+}
+
+p {
+  color: #b3b3b3;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #45a049;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Spotify</title>
+
+    <link rel="icon" href="./src/Assets/favicon.png" />
+    <link rel="stylesheet" href="./css/login.css" />
+  </head>
+  <body>
+    <div class="login">
+      <div class="logo_login">
+        <div class="form_login">
+          <a href="">
+            <img src="./src/Assets/favicon.png" />
+          </a>
+          <h1>Entrar no Spotify</h1>
+          <form action="#" method="post">
+            <!-- Endereço de E-mail -->
+            <div class="input__email">
+              <label for="email">Endereço de e-mail</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="nome@dominio.com"
+                required
+              />
+            </div>
+
+            <!-- Senha -->
+            <div class="input__senha">
+              <label for="senha">Senha</label>
+              <input
+                type="password"
+                id="senha"
+                placeholder="Digite sua senha"
+                required
+              />
+
+              <div class="remember_me">
+                <input type="checkbox" id="remember_me" />
+                <label for="remember_me">Lembrar minha senha</label>
+              </div>
+            </div>
+            <div class="input__entrar">
+              <button type="submit" class="entrar">Entrar</button>
+            </div>
+
+            <a href="recuperar.html" class="forgot_password">
+              Esqueceu sua senha?</a
+            >
+
+            <hr />
+          </form>
+
+          <div class="signup">
+            <p>
+              Não tem uma conta?
+              <a href="inscreva-se.html">Inscreva-se no Spotify</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
