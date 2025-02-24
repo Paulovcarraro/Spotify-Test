@@ -1,4 +1,4 @@
-# Spotify Prototype
+# Projeto: Spotify Test 
 
 Este projeto é uma cópia visual do Spotify desenvolvida para fins de aprendizado e prática de desenvolvimento web.
 
@@ -26,6 +26,12 @@ Node.js
 O código está organizado da seguinte forma:
 
 index.html – Página principal do projeto
+
+login.html - Página de login do projeto
+
+inscreva-se.html - Página para criar uma conta 
+
+recuperar.html - Página para recuperar a senha caso tenha sido perdida ou esquecida
 
 styles/ – Contém os arquivos CSS
 
