@@ -25,21 +25,22 @@ Node.js
 
 O código está organizado da seguinte forma:
 
-**index.html – Página principal do projeto**
+**index.html** – Página principal do projeto
 
-login.html - Página de login do projeto
+**login.html** - Página de login do projeto
 
-inscreva-se.html - Página para criar uma conta 
+**inscreva-se.html** - Página para criar uma conta 
 
-recuperar.html - Página para recuperar a senha caso tenha sido perdida ou esquecida
+**recuperar.html** - Página para recuperar a senha caso tenha sido perdida ou esquecida
 
-styles/ – Contém os arquivos CSS
 
-scripts/ – Contém os arquivos JavaScript para cada página
+**styles/** - Contém os arquivos CSS
 
-assets/ – Contém imagens, ícones e outros recursos visuais
+**scripts/** - Contém os arquivos JavaScript para cada página
 
-server/ – Contém a API construída com Node.js para buscar artistas
+**src/assets/** - Contém imagens, ícones e outros recursos visuais
+
+**api-artists/** - Contém a API construída com Node.js para buscar artistas
 
 
 # Funcionalidades
@@ -59,19 +60,19 @@ Incluir...
 
 # Como Executar
 
-Clone este repositório:
+**Clone este repositório:**
 
 git clone https://github.com/seu-usuario/spotify-test.git
 
-Acesse a pasta do projeto:
+**Acesse a pasta do projeto:**
 
 cd spotify-test
 
-Instale as dependências do Node.js:
+**Instale as dependências do Node.js:**
 
 npm install
 
-Inicie o servidor:
+**Inicie o servidor:**
 
 npm start
 
