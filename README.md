@@ -25,7 +25,7 @@ Node.js
 
 O código está organizado da seguinte forma:
 
-index.html – Página principal do projeto
+**index.html – Página principal do projeto**
 
 login.html - Página de login do projeto
 
